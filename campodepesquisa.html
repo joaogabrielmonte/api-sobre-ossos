@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERROR 503</title>
+    <link rel="stylesheet" href="campo.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="navbar">
+        <header class="header">
+            <a href="" class="logo"></a>
+            <label for="" class="icons">
+                <i class='bx bx-menu'></i>
+            </label>
+            <nav class="bar">
+                <a href="http://127.0.0.1:5500/uso%20da%20api/campodepesquisa.html">Inicio</a>
+                <a href="#">Login</a>
+                <a href="#">Desenvolvedores</a>
+                <a href="#">contato</a>
+
+            </nav>
+        </header>
+    </div>
+
+    <div class="box-shadow">
+        <h1>Pesquisar</h1>
+        <form onsubmit="event.preventDefault(); buscarInformacoesOsso();">
+            <input type="text" name="" id="keyword" placeholder="Digite Nome de um osso">
+            <button class="button" onclick="buscarInformacoesOsso()">
+                <p>pesquisar</p>
+            </button>
+        </form>
+    </div>
+    <div id="resultado" class="caixa"> 
+
+    </div>
+   
+    <script src="projeto.js"></script>
+</div>
+</body>
+</html>
+
